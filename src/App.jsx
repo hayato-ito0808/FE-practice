@@ -8,7 +8,7 @@ import QuizPage from "./pages/QuizPage";
 function App() {
   return (
     //画面遷移を司る
-    <BrowserRouter>
+    <BrowserRouter basename="/FE-practice">
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
         <Route path={ROUTES.QUIZ} element={<QuizPage />} />
