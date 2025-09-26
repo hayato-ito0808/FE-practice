@@ -1,0 +1,9 @@
+.display {
+    flex: 40;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    
+    border: 5px solid rgb(163, 225, 163);
+    background-color: white;
+}
